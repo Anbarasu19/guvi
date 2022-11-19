@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+    <link rel="icon" href="title icon.png" />
+    
+  </head>
+  <body>
+    <div class="bg"> 
+        <div class="box">
+          <div class="">
+            <h3 class="r">
+              <img src="title icon.png" width="60px">
+              Register here</h3>
+              
+          <form id="register" action="login.html" class="Register" method="post">
+              <label >First Name</label>
+              <input type="text" placeholder="Enter your First Name" id="Fname">
+              <input type="text" placeholder="Enter your Last Name" id="Lname">
+              <label>Last Name</label>
+              <br><label>Mail id</label>
+              <input type="email" placeholder="Enter your User Id" id="Uname">
+              <input type="password" placeholder="Enter your password" id="pass">
+              <label>Password</label>
+              <a href="login.html">
+              <button type="button" onclick="getuserinput()">Submit and login</button></a>
+              <script src="register.js"></script>
+            </form>
+          </div>   
+          
+        </div>
+    </div>
+    <script src="/project/js/main.js"></script>
+  </body>
+</html>

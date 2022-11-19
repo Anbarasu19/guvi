@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: medium;
+}
+.bg
+{
+  height: 100%;
+  width: 100%;
+  background-image:url(mbg.jpg);
+  position: fixed;
+  margin: auto;
+  background-position: center;
+  background-size: cover ;
+}
+.box{
+  width: 450px;
+  height: 500px;
+  margin: 5% auto;
+  background-color: whitesmoke;
+  position: relative;
+
+  padding: 50px 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  
+
+}
+.reg label{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.box{
+  opacity: 0.8;
+}
+.r{
+  padding-bottom: 10px;
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px
+  ;
+}
+input[type="email"]
+{
+  
+  margin: 10px;
+  margin-left: px;
+  padding: 5px 75px;
+  border-radius: 50px;
+  font-size: px;
+  
+}
+input[type="text"]
+{
+  margin: 10px;
+  padding: 5px 75px;
+  border-radius: 50px;
+  
+}
+input[type="password"]
+{
+  margin: 10px;
+  margin-left: 18px;
+  padding: 5px 75px;
+  border-radius: 50px;
+
+}
+button[type="button"]
+{
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px 75px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 29px;
+  border-radius: 50px;
+  
+
+}
+button[type="button"]:hover
+{
+  
+  background-image:url(mbg.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover ;
+}
+a:link{
+  text-decoration: none;
+}

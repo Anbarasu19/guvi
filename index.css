@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: medium;
+}
+.bg
+{
+  height: 100%;
+  width: 100%;
+  background-image:url(mbg.jpg);
+  position: fixed;
+  margin: auto;
+  background-position: center;
+  background-size: cover ;
+}
+
+button[type="button"]
+{
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px 75px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 29px;
+  border-radius: 50px;
+  
+
+}
+button[type="button"]:hover
+{
+  
+  background-image:url(mbg.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover ;
+}
+a:link{
+  text-decoration: none;
+}
+.m{
+  padding-bottom: 10px;
+  color: royalblue;
+  margin-top: 40px;
+  padding: 10px 75px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  font-size: 50px
+  ;
+}
